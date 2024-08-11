@@ -1,0 +1,153 @@
+:root {
+    --bg-yellow: #C0DF34;
+    --bg-cyan: #2AB2AF;
+    --bg-body:#E5EFF5;
+  
+    --grey-blue: #7FD1CF;
+    --light-grey: #FFFFFF;
+  
+    --fs-base: 0.8125rem;
+    --fs-para: 0.938rem;
+    --fs-header: 1.2rem;
+    --fs-main: 1.5rem;  
+    --fw-reglr: 400;
+    --fw-bold: 700;
+  }
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /*Main & Body*/
+
+  body {
+    font-family: Karla, sans-serif;
+    background-color: var(--bg-body);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+}
+  main {
+    width: 350px;
+    box-shadow: 1px 1px 3px hsla(0, 0%, 0%, 0.1);
+    background-color: white;
+    max-width: 800px;
+    width: 800px;
+    border-radius: 10px;
+    margin: auto;
+    overflow: hidden;
+}
+  /*First*/
+  .first {
+    background-color:white;
+    padding: 1.5rem;
+    border-top-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
+  }
+  
+  h1 {
+    font-size: var(--fs-main);
+    color: var(--bg-cyan);
+    font-weight: var(--fw-bold);
+  }
+  
+  .comm-para {
+    color: var( --bg-yellow);
+    font-size: var(--fs-header);
+    margin: 1rem 0;
+    font-weight: var(--fw-bold);
+  }
+  
+  .comm-des {
+    color: var(--grey-blue);
+    font-size: var(--fs-para);
+    line-height: 1.6rem;
+  }
+  
+   /*Second*/
+   div{
+    width: 50%;
+   }
+   .row {
+    display: flex;
+   }
+  .second {
+    background-color: var(--bg-cyan);
+    padding: 1.5rem;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 1.4rem;
+  }
+  
+  .price span {
+    font-size: 2.5rem;
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .price {
+    vertical-align: center;
+    font-size: var(--fs-header);
+    color: var(--light-grey);
+    display: flex;
+    align-items: center;
+  }
+  
+  .offer {
+    font-size: 1.1rem;
+  }
+  
+  button {
+    width: 80%;
+    border-radius: 0.3rem;
+    margin-top: 1.6rem;
+    border: 0;
+    padding: 10px;
+    font-size: var(--fs-para);
+    font-weight: var(--fw-bold);
+    color: white;
+    background-color: var(--bg-yellow);
+    cursor: pointer;
+    box-shadow: 1px 1px 3px hsla(0, 0%, 0%, 0.1);
+  }
+  
+  /*Third*/
+
+  .third {
+    background-color: hsla(179, 62%, 43%, 0.6);
+    padding: 1.5rem;
+    border-bottom-left-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+    color:#FFFFFF;
+  }
+  
+  .third p {
+    font-size: var(--fs-header);
+    font-weight: var(--fw-bold);
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    opacity: 0.7;
+    list-style: none;
+    padding: 0px;
+}
+
+ul li {
+  line-height: 24px;
+  margin: 5px 0px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: rgb(142, 171, 210);
+}
