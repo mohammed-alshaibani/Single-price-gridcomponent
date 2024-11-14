@@ -8,81 +8,77 @@ Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+# Single Price Grid Component
 
-## The challenge
+This is a Frontend Mentor challenge project titled **Single Price Grid Component**. It is a simple webpage that showcases a pricing model and the benefits of joining a subscription service. The project is built using HTML and CSS, and it's designed to help you practice layout, typography, and basic styling concepts.
 
-Your users should be able to:
+## Live Demo
 
-- View the optimal layout for the component depending on their device's screen size
-- See a hover state on desktop for the Sign Up call-to-action
+You can see the live demo of this project [here](https://your-live-demo-link.com).
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+## Table of Contents
 
-## Where to find everything
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [How to Use](#how-to-use)
+- [Contributing](#contributing)
+- [Acknowledgments](#acknowledgments)
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+## Overview
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+The project features a simple subscription pricing page with the following sections:
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+1. **Join our Community**: An introduction to the service, including a money-back guarantee.
+2. **Pricing Section**: Displays the monthly subscription price and a sign-up button.
+3. **Why Us Section**: Lists the benefits of subscribing, such as tutorials, code reviews, and community support.
+4. **Footer**: Provides attribution and credits to Frontend Mentor.
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+## Features
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+- A clean, responsive layout that adjusts for mobile and desktop screens.
+- A simple pricing model with clear typography and design.
+- A "Sign Up" button that could link to an actual subscription page (currently a placeholder).
+- A list of key benefits and features of the subscription service.
 
-## Building your project
+## Technologies Used
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+- **HTML**: Used to structure the content of the page.
+- **CSS**: Used for styling the components and creating a visually appealing design.
+- **Mobile Responsiveness**: Ensures the page is usable on different screen sizes using media queries.
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+## How to Use
 
-## Deploying your project
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/single-price-grid-component.git
+   Navigate into the project directory:
+   ```
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+bash
+cd single-price-grid-component
+Open the index.html file in your browser to view the project.
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+Customize the project as needed, changing the links, colors, or text content to fit your needs.
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+Contributing
+If you want to contribute to this project, you can fork the repository and submit a pull request. Make sure to follow these steps:
 
-## Create a custom `README.md`
+Fork the repository.
+Create a new branch (git checkout -b feature-name).
+Make your changes and commit them (git commit -m 'Add feature').
+Push your changes to your forked repository (git push origin feature-name).
+Create a pull request.
+Acknowledgments
+This project is based on the Frontend Mentor challenge.
+A huge thanks to Frontend Mentor for providing this challenge to help developers improve their front-end skills.
+Happy coding! 🎉
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+### How to Use the README:
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-## Submitting your solution
-
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+- **Overview**: Describes the purpose of the project and gives an outline of its main components.
+- **Features**: Highlights what the project includes, such as a clean layout and responsiveness.
+- **Technologies Used**: Lists the technologies involved in the project.
+- **How to Use**: Instructions for setting up the project locally.
+- **Contributing**: A guide for anyone interested in contributing to the project.
+- **Acknowledgments**: A thank-you note to Frontend Mentor for providing the challenge.

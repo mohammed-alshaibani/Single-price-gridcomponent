@@ -1,61 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Single Price Grid Component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Single Price Grid Component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-   <link rel="stylesheet" href="/css/style.css">
- 
-</head>
-<body>
-<div>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div>
+      <main class="container">
+        <header class="main__header">
+          <h4 class="main__header-primary">Join our community</h4>
+          <p class="main__header-secondary">
+            30-day, hassle-free money back guarantee
+          </p>
+          <p class="main__header-gray small-text">
+            Gain access to our full library of tutorials along with expert code
+            reviews. Perfect for any developers who are serious about honing
+            their skills.
+          </p>
+        </header>
 
-  <main>
+        <section class="price__section">
+          <h4>Monthly Subscription</h4>
+          <p>
+            <span class="price__section-large-text">&dollar;29</span>
+            <span class="price__section-off-white"> &nbsp per month</span>
+          </p>
+          <p class="price__section-small-text">
+            Full access for less than &dollar;1 a day
+          </p>
+          <a class="btn" href="#">Sign Up</a>
+        </section>
 
-    <section class="first">
-      <h1>Join our community</h1>
-      <p class="comm-para">
-        30-day, hassle-free money back guarantee
-      </p>
-      <p class="comm-des">Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.</p>
-    </section>
+        <section class="whyus__section">
+          <h4>Why Us</h4>
+          <p>Tutorials by industry experts</p>
+          <p>Peer &amp; expert code review</p>
+          <p>Coding exercises</p>
+          <p>Access to our GitHub repos</p>
+          <p>Community forum</p>
+          <p>Flashcard decks</p>
+          <p>New videos every week</p>
+        </section>
+      </main>
 
-    <section class="row">
-
-      <div class="second">
-        <h2>Monthly Subscription</h2>
-        <p class="price"><span>&dollar;29 </span>per month</p>
-        <p class="offer">Full access for less than &dollar;1 a day</p>
-        <button>Sign Up</button>
-      </div>
-      
-      <div class="third">
-        <p>Why Us</p>
-        <ul>
-          <li>Tutorials by industry experts</li>
-          <li>Peer &amp; expert code review</li>
-          <li>Coding exercises</li>
-          <li>Access to our GitHub repos</li>
-          <li>Community forum</li>
-          <li>Flashcard decks</li>
-          <li>New videos every week</li>
-        </ul>
-      </div>
-    
-    </section>
-
-  </main>
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">M AlShaiabni</a>.
-    </p>
-  </footer>
-</body>
+      <footer>
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">M AlShaiabni</a>.
+        </p>
+      </footer>
+    </div>
+  </body>
 </html>
