@@ -12,10 +12,6 @@ Thanks for checking out this front-end coding challenge.
 
 This is a Frontend Mentor challenge project titled **Single Price Grid Component**. It is a simple webpage that showcases a pricing model and the benefits of joining a subscription service. The project is built using HTML and CSS, and it's designed to help you practice layout, typography, and basic styling concepts.
 
-## Live Demo
-
-You can see the live demo of this project [here](https://your-live-demo-link.com).
-
 ## Table of Contents
 
 - [Overview](#overview)
@@ -51,7 +47,7 @@ The project features a simple subscription pricing page with the following secti
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/single-price-grid-component.git
+   git clone https://github.com/mohammed-alshaibani/Single-price-gridcomponent.git
    Navigate into the project directory:
    ```
 
